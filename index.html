@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passer Rating</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+
+<body>
+
+    <div class="box">
+        <h2>Passer Rating:</h2>
+
+        <p><input type="text" id="firstname" placeholder="FirstName" name="firstname"></p>
+
+        <p><input type="text" id="lastname" placeholder="LastName" name="lastname"></p>
+
+        <p><input type="number" id="attempts" placeholder="Attempts" name="attempts"
+                oninput="validity.valid||(value='');">
+        </p>
+
+        <p><input type="number" id="completions" placeholder="Completions" name="completions"
+                oninput="validity.valid||(value='');">
+        </p>
+
+        <p><input type="number" id="yards" placeholder="Yards" name="yards"></p>
+
+        <p><input type="number" id="touchdowns" placeholder="Touchdowns" name="touchdowns"
+                oninput="validity.valid||(value='');">
+        </p>
+
+        <p><input type="number" id="interceptions" placeholder="Interceptions" name="interceptions"
+                oninput="validity.valid||(value='');">
+        </p>
+
+        <button class="button" onclick="playerName(); passerRatingFormula();">Submit</button>
+
+        <button class="button" onClick="window.location.reload();">Reset</button><br><br>
+
+        <span class="span" id="playername">Player Name:</span>
+
+        <span class="span" id="result">Passer Rating:</span>
+
+    </div>
+
+    <script src='app.js'></script>
+</body>
+
+</html>

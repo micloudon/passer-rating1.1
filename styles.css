@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #73917e;
+}
+
+.box {
+    width: 500px;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #0e2957;
+    margin: 1px;
+    text-align: center;
+    border-radius: 150px;
+}
+
+.box h2 {
+color: white;
+}
+
+.box input[type = "text"]{
+    border: 10px;
+    background: none;
+    display: block;
+    margin: 1px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 5px 5px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.box input[type = "number"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 1px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 5px 5px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+}
+
+::-webkit-input-placeholder {
+    color:white;
+    font-weight: bold;
+}
+
+.button {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background: #050c3b;
+    display: inline;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.span {
+    border: 2px solid #3498db;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background: #209dbd;
+
+}
+
+.box input[type = "number"]:hover{
+    background: #11298a;
+
+}
