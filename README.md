@@ -11,7 +11,7 @@ Only yards can accept a negative value.
 
 A name function is also added, so a players name can be displayed
 
-
+https://micloudon.github.io/passer-rating1.1/
 
 
  
